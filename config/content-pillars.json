@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "pillars": [
+    {"id": "first_impression", "name": "第一印象", "question": "別人第一眼怎麼感受到我？", "weight": 45},
+    {"id": "temperament", "name": "氣質", "question": "為什麼有些人就是有存在感？", "weight": 25},
+    {"id": "personal_style", "name": "個人風格", "question": "我適合什麼？為什麼照抄別人還是不對？", "weight": 20},
+    {"id": "self_expression", "name": "自我表達", "question": "我想讓別人看到怎樣的我？", "weight": 10}
+  ],
+  "logic": "第一印象 -> 氣質 -> 個人風格 -> 自我表達",
+  "note": "Weights are current test priorities, not permanent brand proportions."
+}
