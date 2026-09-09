@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "metric_priority": {
+    "reels": ["views_median", "engagement_median", "comments", "reposts"],
+    "carousel_photo": ["engagement_median", "comments", "reposts"]
+  },
+  "thresholds": [
+    {"label": "Normal", "min_multiple": 0, "max_multiple": 2},
+    {"label": "Watch", "min_multiple": 2, "max_multiple": 3},
+    {"label": "Winner", "min_multiple": 3, "max_multiple": 5},
+    {"label": "Breakout", "min_multiple": 5, "max_multiple": null}
+  ],
+  "rules": [
+    "Compare every post to that account's own recent baseline.",
+    "Separate Reels from Carousel/Photo baselines.",
+    "If Views are missing or unreliable, use Engagement/Comments/Reposts.",
+    "Promoted/paid content must be flagged and must not be treated as an organic Winner.",
+    "Missing metrics must be marked as data quality issues rather than interpreted as zero performance."
+  ]
+}
