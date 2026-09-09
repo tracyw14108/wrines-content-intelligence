@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "hook_types": ["belief_reversal", "self_projection", "pain_point", "contrast", "curiosity", "identity_change", "myth_busting", "quick_question"],
+  "cta_types": ["soft_comment", "keyword_comment", "dm", "save", "share", "quiz", "profile_link", "none"],
+  "funnel_stages": ["attention", "resonance", "interaction", "lead", "conversion"],
+  "winner_types": ["Hook Winner", "Retention Winner", "Resonance Winner", "Funnel Winner", "Brand Winner"],
+  "copy_risk": ["low", "medium", "high"],
+  "wrines_filter": [
+    "第一印象",
+    "氣質",
+    "個人風格",
+    "自我表達",
+    "Power",
+    "Warmth",
+    "Freedom"
+  ]
+}
