@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "as_of": "2026-09-09",
+  "accounts": {
+    "w.rines_": {"metric": "views", "median": 43, "status": "confirmed", "note": "Current Reel baseline from initial three-Reel sample."},
+    "yuchuan_0318": {"metric": "views", "median": 2510, "status": "confirmed", "note": "Recent Reel median; follower count about 5513 at baseline read."},
+    "faezhouwu": {"metric": "views", "median": null, "status": "long_tail", "note": "Large outliers; track topic breakouts and organic/promoted separately rather than one global median."},
+    "vanessa_style_advisor": {"metric": "engagement", "median": 44.5, "status": "confirmed", "note": "Recent content engagement median."},
+    "muronginlove": {"metric": "engagement", "median": 28, "status": "provisional", "note": "Smaller sample; keep provisional."},
+    "yuanslook": {"metric": "views", "median": 1043, "engagement_median": 17, "status": "confirmed", "note": "Many posts are promoted; separate paid from organic."},
+    "n.2twin": {"metric": "engagement", "median": null, "status": "content_signal", "note": "Strong known outliers; use post-level data and organic flags. Stats endpoint incomplete."},
+    "vacanza_accessory": {"metric": null, "median": null, "status": "data_incomplete", "note": "Sociality returns incomplete views/likes; use concept and brand-worldview intelligence."},
+    "mako_artist_": {"metric": null, "median": null, "status": "provisional", "note": "Insufficient numeric baseline currently."},
+    "omikao_makeup": {"metric": "engagement", "median": 20, "status": "confirmed", "note": "Recent engagement median."}
+  }
+}
