@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "owned": [{"username": "w.rines_", "category": "Owned", "role": "W.RINES self-performance"}],
+  "external": [
+    {"username": "yuchuan_0318", "category": "A", "role": "broad traffic -> keyword comment -> DM funnel"},
+    {"username": "faezhouwu", "category": "A", "role": "human insight / emotion / broad hook ceiling"},
+    {"username": "vanessa_style_advisor", "category": "B", "role": "pain -> classification -> lead magnet"},
+    {"username": "muronginlove", "category": "B", "role": "self-awareness / values / consumption reflection"},
+    {"username": "yuanslook", "category": "B", "role": "identity / life-stage change -> external alignment"},
+    {"username": "n.2twin", "category": "C", "role": "jewelry pain -> solution -> product -> keyword CTA"},
+    {"username": "vacanza_accessory", "category": "C", "role": "jewelry -> outfit -> lifestyle worldview"},
+    {"username": "mako_artist_", "category": "D", "role": "image / skincare / lifestyle collaboration extension"},
+    {"username": "omikao_makeup", "category": "D", "role": "facial features / aura / styling -> product selection"}
+  ],
+  "target_structure": {"Owned": 1, "A": 2, "B": 3, "C": 2, "D": 2, "total": 10}
+}
