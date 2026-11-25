@@ -18,7 +18,17 @@
     "same_day_piece_id_no_cross_sign_duplicates": true,
     "same_sign_consecutive_dates_must_change_both_top_and_bottom": true,
     "jewelry_shapes_must_support_selected_style": true,
-    "track_product_sku_when_used": true
+    "track_product_sku_when_used": true,
+    "jewelry_material_label_rule": {
+      "allowed_values": [
+        "S925",
+        "S999"
+      ],
+      "show_only_when_supplier_material_confirmed": true,
+      "hide_other_materials": true,
+      "do_not_infer_from_photo": true,
+      "display_with_original_supplier_short_name": true
+    }
   },
   "records_location": "data/zodiac-reels/outfits.json",
   "validation_command": "python scripts/check_zodiac_reels_outfits.py",
