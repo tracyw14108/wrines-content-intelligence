@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "timezone": "Asia/Taipei",
+  "format": "IG Reels only",
+  "premise": "Each date and sun sign receives a distinct outfit; changing color alone never qualifies as a new top or bottom.",
+  "non_model_pages": [
+    "astrology",
+    "palette",
+    "jewelry",
+    "source"
+  ],
+  "model_page": "full outfit demonstration only",
+  "rules": {
+    "both_top_and_bottom_required": true,
+    "complete_outfit_combination_never_repeat": true,
+    "same_sign_full_top_and_bottom_piece_id_cooldown_days": 30,
+    "same_sign_top_or_bottom_category_and_silhouette_cooldown_days": 14,
+    "same_day_piece_id_no_cross_sign_duplicates": true,
+    "same_sign_consecutive_dates_must_change_both_top_and_bottom": true,
+    "jewelry_shapes_must_support_selected_style": true,
+    "track_product_sku_when_used": true
+  },
+  "records_location": "data/zodiac-reels/outfits.json",
+  "validation_command": "python scripts/check_zodiac_reels_outfits.py",
+  "final_note": "A validator can reject duplicate planned looks, but source research and actual Reels creation must write their selected outfits to the shared record before production."
+}
